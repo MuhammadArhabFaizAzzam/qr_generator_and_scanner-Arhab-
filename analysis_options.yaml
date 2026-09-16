@@ -10,6 +10,10 @@
 include: package:flutter_lints/flutter.yaml
 
 analyzer:
+  errors:
+    unused_import: error
+    prefer_const_constructors: error
+    avoid_print: ignore
   exclude:
     - build/**
     - android/**
